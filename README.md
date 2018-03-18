@@ -1,27 +1,24 @@
-# NgUrlShortner
+<p align="center">
+    <a href="https://github.com/yiisoft" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+    </a>
+    <h1 align="center"> Walla Angular 5 shorten url frontend</h1>
+    <br>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 
-## Development server
+REQUIREMENTS
+------------
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To run the Angular app:
 
-## Code scaffolding
+1. Clone this repo into an empty folder. (We will use the Angular dev server as opposed to the build dist) 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. cd to the root dir where the packege.json file is located. Run npm install.
 
-## Build
+3. run npm start or alternatively ng serve 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+3. Point your browser to http://localhost/4200 (or what ever port you ran ng serve with. 4200 is defult).
 
-## Running unit tests
+If all went well You should the frontend app.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
