@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShortenUrlComponent } from './shorten-url/shorten-url.component';
 import { ReportsComponent } from './reports/reports.component';
+import {ApiService} from "./api.service";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { ReportsComponent } from './reports/reports.component';
     FormsModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
