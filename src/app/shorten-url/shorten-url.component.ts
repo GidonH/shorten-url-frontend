@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShortenUrlComponent implements OnInit {
 
+  longUrl: string;
+  result: string;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  submit(){
+
   }
 
 }

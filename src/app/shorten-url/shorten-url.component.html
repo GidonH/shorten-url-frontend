@@ -1,3 +1,8 @@
-<p>
-  shorten-url works!
-</p>
+<form (ngSubmit)="submit(heroForm)">
+  <input type="text"  [(ngModel)]="longUrl" name="longUrl" placeholder="כתובת URL">
+  <br>
+  <button type="submit">
+    קצר לי
+  </button>
+</form>
+<span id="result">{{result}}</span>

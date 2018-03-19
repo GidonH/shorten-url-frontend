@@ -1,0 +1,35 @@
+$purple: #940657;
+form {
+  margin-top: 40px;
+  input {
+    border: none;
+    font-size: 20px;
+    color: $purple;
+    border-bottom: solid 2px $purple;
+    width: 100%;
+    outline: none;
+    padding-bottom: 10px;
+    &::-moz-placeholder {
+      color: $purple;
+    }
+    &::-webkit-input-placeholder {
+      color: #940657;
+    }
+  }
+  button {
+    margin-top: 30px;
+    color: white;
+    border: none;
+    padding: 6px 30px;
+    font-size: 17px;
+    background-color: $purple;
+  }
+}
+#result {
+  min-width: 218px;
+  border-bottom: 2px solid $purple;
+  margin-top: 57px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 7px 15px;
+}
