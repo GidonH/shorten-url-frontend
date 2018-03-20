@@ -4,12 +4,14 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class ApiService {
 
-  url = 'http://localhost/shorten-url-admin/web/';
+  host:string = 'http://localhost/shorten-url-admin';
+  path: string = '/web/url/shorten-url';
 
   constructor(private http: HttpClient) { }
 
   getShortUrl(longUrl: string){
-   return this.http.get(this.url);
+    longUrl = encodeURIComponent(longUrl);
+   return this.http.get(this.host + this.path + '?long=' + longUrl);
   }
 
 }
