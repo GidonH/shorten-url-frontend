@@ -9,7 +9,7 @@ import {ApiService} from "../api.service";
 export class ShortenUrlComponent implements OnInit {
 
   longUrl: string;
-  result: any = 'test';
+  result: any = '';
 
   constructor(private api: ApiService) { }
 
