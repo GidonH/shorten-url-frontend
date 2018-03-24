@@ -20,5 +20,5 @@ To run the Angular app:
 
 3. Point your browser to http://localhost/4200 (or what ever port you ran ng serve with. 4200 is defult).
 
-If all went well You should the frontend app.
+If all went well You should see the frontend app.
 
