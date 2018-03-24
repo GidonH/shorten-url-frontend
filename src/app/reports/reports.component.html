@@ -1,3 +1,18 @@
-<p>
-  reports works!
-</p>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Original URL</th>
+        <th>Short URL</th>
+        <th>Count</th>
+    </tr>
+    </thead>
+    <tbody>
+       <tr *ngFor="let report of reports">
+           <td>{{report.id}}</td>
+           <td>{{report.original_url}}</td>
+           <td>{{report.short_url}}</td>
+           <td>{{report.counter}}</td>
+       </tr>
+    </tbody>
+</table>
